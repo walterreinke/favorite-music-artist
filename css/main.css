@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.logo {
+  width: 100px;
+}
+
+.nav-primary {
+  padding: 10px;
+}
+
+.mx-8 {
+  margin: 0 8px;
+}
+
+.bq {
+  border-left: black 10px solid;
+  margin: 0;
+  padding-left: 10px;
+}
+
+/*Desktop Styles*/
+@media (min-width: 767px) {
+  .header {
+    display: flex;
+  }
+
+  .header > * {
+    flex: 1 0;
+  }
+}

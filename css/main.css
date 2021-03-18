@@ -32,6 +32,10 @@ img {
 
 /*Desktop Styles*/
 @media (min-width: 767px) {
+  .remove-margin-top {
+    margin-top: 0;
+  }
+
   .header {
     display: flex;
     flex-direction: row-reverse;
@@ -41,8 +45,23 @@ img {
     flex: 1 0;
   }
 
+  .hv-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .h-center {
+    display: flex;
+    justify-content: center;
+  }
+
+  .max-width-400 {
+    max-width: 400px;
+  }
+
   .flex {
-  display: flex;  
+    display: flex;
   }
 
   .flex > * {
